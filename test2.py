@@ -17,13 +17,13 @@ if title==driver.title:
 
 #3 yes - elements are the same regardless to the browser
 
-#4
+
 driver = webdriver.Chrome(executable_path="C:\\Users\dgotl\Desktop\chromedriver.exe")
 driver.get("https://translate.google.com/")
 driver.find_element_by_id("source").send_keys("חתול")
 driver.find_element_by_id("gt-submit").click()
 
-#5
+
 driver.get("https://www.youtube.com/")
 driver.find_element_by_id("search").send_keys("guns and roses")
 driver.find_element_by_id("search-icon-legacy").click()
