@@ -16,7 +16,7 @@ if title==driver.title:
     print("equal")
 
 #3 yes - elements are the same regardless to the browser
-
+print("fdfd")
 
 driver = webdriver.Chrome(executable_path="C:\\Users\dgotl\Desktop\chromedriver.exe")
 driver.get("https://translate.google.com/")
